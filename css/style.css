@@ -1,0 +1,50 @@
+html,
+body {
+	background: url('../img/bg.jpg') center center no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+
+#logo img {
+	border-radius: 50%;
+	margin: 60px auto 30px auto !important;
+	border: 2px dashed white;
+}
+
+#intro p {
+	color: white;
+	text-align: center;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 3em;
+}
+
+.yt-info {
+	font-size: 0.55em;
+	margin-left: 10px;
+	color: lightgray;
+}
+
+#counter .countdown {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: 'Amatic SC', cursive;
+	font-size: 4em;
+	margin: -15px 0 0;
+}
+
+#icons {
+	text-align: center;
+}
+
+#icons .fa {
+	color: rgb(194, 31, 31);
+	margin: 5px 15px;
+	position: relative;
+	bottom: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+/*
+    This UI was built for laptops mainly.
+    Tip: play with this code and make the UI fully responsive!
+*/
